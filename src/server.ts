@@ -4,8 +4,6 @@ import mongoose from 'mongoose';
 import { config } from './config/config';
 import Logging from './library/logging';
 
-mongoose.set('strictQuery', false);
-
 // Création d'une instance d'Express
 const router = express();
 
